@@ -1,0 +1,259 @@
+:root {
+    --main-color-font: rgb(244, 164, 164);
+    --main-color-background: rgb(255, 240, 240);
+    --main-color-hover: rgb(255, 238, 238);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.logo {
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .2em;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(45, 45, 45, 0.3);
+    padding-bottom: 10px;
+}
+
+.main-nav li {
+    padding: 0 1%;
+}
+
+.nav li a:hover {
+    color: var(--main-color-font);
+}
+
+.main-header {
+    background-blend-mode: multiply;
+    background-size: cover;
+    /* background-image: url(../images/flu.jpg ); 
+    background-color: rgba(0, 0, 0, 0.089); */
+    /* background-color: rgb(255, 239, 239); */
+}
+
+.content {
+    position: relative;
+    overflow: hidden;
+}
+
+.cosmetologist{
+    width: 100vw;
+}
+
+.gallery {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+.images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wrap-pricing {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrap-pricing h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 30px;
+    margin-bottom: 40px;
+}
+
+
+.row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 1px solid rgba(45, 45, 45, 0.3);
+    border-top: 0;
+    transition: 0.9s;
+}
+
+.row:hover{
+    background-color: var(--main-color-hover);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-color-font);
+    font-weight: 1000;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.mapa {
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: fit-content;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.contact-container a {
+    text-decoration: none;
+}
+
+.contact-container h3 {
+    font-weight: 900;
+    color: rgb(81, 79, 79);
+}
+.contact-container p {
+    font-family: 'Open Sans',sans-serif;
+    font-size: .9em;
+    line-height: 15px;
+}
+
+
+.first-row, .second-row {
+    height: 550px;
+    width: 430px;
+    padding: 30px;
+}
+
+.first-row h3 {
+    font-size: 1.25em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.second-row {
+    background-color: var(--main-color-background);
+}
+
+.link-wrapper, .adres, .opening-hours {
+    padding-bottom: 5px;
+}
+
+.iconka {
+    margin-right: 10px;
+    color: var(--main-color-font);
+}
+
+.about-wraper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: fit-content;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.photo img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+    height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+    .photo img {
+        height: 100%;
+    }
+    .photo {
+        padding: 10px;
+    }
+}
+
+.about h1{
+    font-weight: 900;
+    color: rgb(32, 118, 172);
+}
+
+.about, .photo {
+    padding: 20px;
+    width: 500px;
+}
+
+.photo {
+    padding: 50px;
+}
+
+.about p {
+    font-family: 'Open Sans',sans-serif;
+    font-size: .9em;
+    line-height: 20px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(45, 45, 45, 0.3);
+}
+
+.footer {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-top: 1px solid rgba(45, 45, 45, 0.3);
+}
+
+.footer .iconka {
+    color: rgb(81, 79, 79);
+    padding: 5px;
+}
+
+
+
