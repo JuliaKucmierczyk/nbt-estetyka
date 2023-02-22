@@ -1,9 +1,12 @@
-import cosmetologist from '../images/cosmetologist.jpg';
+import Testimonials from '../components/Testimonials';
+import CheckGallery from '../components/CheckGallery';
 
 export default function Home() {
     return (
         <div className='content'>
-        <img src={cosmetologist} alt="cosmetologist" className='cosmetologist'/>
+            <CheckGallery />
+            <Testimonials />
+
         </div>
     );
 }
