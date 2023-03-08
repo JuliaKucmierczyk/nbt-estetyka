@@ -1,9 +1,11 @@
 import Footer from "../components/Footer";
+import {motion} from 'framer-motion';
 
 export default function Pricing() {
     return (
         <div className="wrap-pricing">
             <div className="container-pricing">
+            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: .2 }}>
                 <h1>Kosmetologia klasyczna</h1>
                 <div className="row">
                     <div className="title">
@@ -26,6 +28,8 @@ export default function Pricing() {
                     </div>
                     <div className="price">259zł</div>
                 </div>
+                </motion.div>
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }}>
                 <h2>Peelingi Chemiczne</h2>
                 <div className="row">
                     <div className="title">
@@ -63,6 +67,8 @@ export default function Pricing() {
                     </div>
                     <div className="price">159zł</div>
                 </div>
+                </motion.div>
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: .2 }}>
                 <h1>Kosmetologia estetyczna</h1>
                 <div className="row">
                     <div className="title">
@@ -89,6 +95,8 @@ export default function Pricing() {
                     </div>
                     <div className="price">280 - 480zł</div>
                 </div>
+                </motion.div>
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}  transition={{ delay: .2 }}>
                 <h2>Masaże twarzy</h2>
                 <div className="row">
                     <div className="title">
@@ -108,6 +116,8 @@ export default function Pricing() {
                     </div>
                     <div className="price">120zł</div>
                 </div>
+                </motion.div>
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}  transition={{ delay: .2 }}>
                 <h2>Podologia</h2>
                 <div className="row">
                     <div className="title">
@@ -139,6 +149,8 @@ export default function Pricing() {
                     </div>
                     <div className="price">150zł</div>
                 </div>
+                </motion.div>
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}  transition={{ delay: .2 }}>
                 <h2>Henny i Laminacja</h2>
                 <div className="row">
                     <div className="title">
@@ -182,6 +194,7 @@ export default function Pricing() {
                     </div>
                     <div className="price">130zł</div>
                 </div>
+                </motion.div>
             </div>
             <Footer/>
         </div>
