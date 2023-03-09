@@ -5,7 +5,7 @@ export default function About() {
     return (
         <div className='about-wraper'>
             <div className="photo">
-                <img src={me} alt="My photo" />
+                <img src={me} alt="My photo" loading='lazy'/>
             </div>
             <div className="about">
                 <h1>ANIELA</h1>

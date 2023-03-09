@@ -1,5 +1,6 @@
 import {quotesLeft} from 'react-icons-kit/icomoon/quotesLeft';
 import Icon from 'react-icons-kit';
+import { motion } from 'framer-motion';
 
 const Testimonials = () => {
     return (
@@ -18,13 +19,13 @@ const Testimonials = () => {
 
 const TestimonialItem = (props) => {
     return (
-        <div className="testimonial-item">
+        <motion.div className="testimonial-item">
             <div className="inner-content">
                 <Icon icon={quotesLeft} size={30} ></Icon>
                 <h4>{props.name}</h4>
                 <p>{props.quote}</p>
             </div>
-        </div>
+        </motion.div>
     );
 }
 

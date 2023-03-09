@@ -7,22 +7,31 @@ import img6 from '../images/gallery/6.jpg';
 import img7 from '../images/gallery/7.jpg';
 import img8 from '../images/gallery/8.jpg';
 import Footer from '../components/Footer';
-import { motion } from 'framer-motion';
+import {motion} from 'framer-motion';
 
 export default function Gallery() {
     return (
         <div>
         <div className="gallery">
-            <div className="images">
-                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}><img src={img1} alt="1" /></motion.div>
-                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}><img src={img2} alt="2" /></motion.div>
-                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}><img src={img3} alt="3" /></motion.div>
-                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}><img src={img8} alt="8" /></motion.div>
-                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}><img src={img4} alt="4" /></motion.div>
-                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}><img src={img5} alt="5" /></motion.div>
-                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}><img src={img6} alt="6" /></motion.div>
-                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}><img src={img7} alt="7" /></motion.div>
-            </div>
+            <motion.div animate={
+                {
+                    opacity: [0, 1],
+                    transition: {
+                        duration: 1,
+                        delay: 0.3,
+                        ease: "ease"
+                    }
+                }
+            } className="images">
+                <img src={img1} alt="1" />
+                <img src={img2} alt="2" />
+                <img src={img3} alt="3" />
+                <img src={img8} alt="8" />
+                <img src={img4} alt="4" />
+                <img src={img5} alt="5" />
+                <img src={img6} alt="6" />
+                <img src={img7} alt="7" />
+            </motion.div>
         </div>
         <Footer/>
         </div>

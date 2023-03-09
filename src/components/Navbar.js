@@ -19,6 +19,15 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
+// create a function that checks if the hamburger is not null
+
+if (hamburger !== null) {
+    hamburger.addEventListener("click", mobileMenu);
+} else {
+    console.log("hamburger is null");
+}
+
+
 const Navbar = () => {
     return (
         <header className="main-header">
@@ -59,6 +68,5 @@ const Navbar = () => {
     )
 }
 
-//hamburger.addEventListener("click", mobileMenu); 
 
 export default Navbar;
