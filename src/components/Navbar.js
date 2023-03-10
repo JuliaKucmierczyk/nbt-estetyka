@@ -55,7 +55,7 @@ const Navbar = () => {
                             <Link to="/pricing" className="nav-link">Cennik</Link>
                         </li>
                         <li class="nav-item">
-                            <Link to="/contact" className="nav-link">Kontakt</Link>
+                            <Link to="/contact" className="contact-link nav-link">Kontakt</Link>
                         </li>
                 </ul>
                 <div className="hamburger">
