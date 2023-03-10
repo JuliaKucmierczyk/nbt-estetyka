@@ -21,11 +21,7 @@ function closeMenu() {
 
 // create a function that checks if the hamburger is not null
 
-if (hamburger !== null) {
-    hamburger.addEventListener("click", mobileMenu);
-} else {
-    console.log("hamburger is null");
-}
+hamburger.addEventListener("click", mobileMenu);
 
 
 const Navbar = () => {
