@@ -42,7 +42,7 @@ nav {
     padding-right: 1rem;
   }
   
-  .hamburger {
+  .hamburger-menu {
     display: none;
     cursor: pointer;
   }
@@ -77,16 +77,7 @@ nav {
     color: #006d77;
 }
 
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #323232;
-}
-  
+
 @media only screen and (max-width: 992px) {
     .nav-menu {
         position: fixed;
@@ -101,15 +92,31 @@ nav {
         z-index: 220;
     }
 
+    .nav-menu-toggled {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        z-index: 100;
+        transition: 0.3s;
+    }
+
+    .nav-menu-toggled li{
+        margin: 1.2rem;
+        list-style: none;
+        padding: 0;
+    }
+
     .nav-menu.active {
         left: 0;
     }
 
-    .nav-item {
-        margin: 1.5rem 0;
-    }
-
-    .hamburger {
+    .hamburger-menu {
         display: block;
         cursor: pointer;
     }
@@ -117,18 +124,6 @@ nav {
     .logo img {
         width: 150px;
         height: auto;
-    }
-
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
     }
 }
 
@@ -402,7 +397,7 @@ nav {
 .testimonial-item h4 {
     font-weight: 900;
     color: #272727;
-    padding: 15px;
+    padding: 5px;
 }
 
 .section-heading {
@@ -770,67 +765,102 @@ nav {
 
 .check-services {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
-    width: 70vw;
+    width: 100%;
     margin: 0 auto;
     padding-top: 40px;
     padding-bottom: 40px;
+    background-color: #f4feff;
 }
+
 
 .check-services-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    margin: 0px 50px;
 }
 
+@media screen and (max-width: 768px) {
+    .check-services-content {
+        flex-direction: column;
+    }
+
+    .check-services-content .services-show-box {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .check-services-text {
+        display: none;
+    }
+}
+
+
 .services-show-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 10px 2px rgb(37, 37, 37, 0.2);
-    margin: 15px;
+    width: auto;
     transition: 0.4s;
+    margin: 5px;
+    box-shadow: 3px 3px 10px 1px rgb(37, 37, 37, 0.2);
+    background-color: white;
+}
+
+.title-serv {
+    padding: 10px 20px;
+    font-weight: 800;
+    line-height: 1.1;
+    font-size: 1.2rem;
 }
 
 .services-show-box h1 {
-    font-weight: 800;
-    color: #006d77;
-    padding: 10px 20px 0px;
+    font-weight: 400;
+    color: #3d4a4b;
     line-height: 1.1;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .check-services-btn {
     display: flex;
     justify-content: center;
-    align-items: left;
-    background-color: #054b51;
-    color: #ffffff;
-    font-weight: 800;
-    font-size: 1.2rem;
-    padding: 10px 20px;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    padding: 5px;
     border-radius: 5px;
     transition: 0.4s;
-    width: 15rem;
-    margin-top: 50px;
+    background-color: #2ea9a9;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 20px;
 }
 
-.check-services-title {
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    background-color: #ffffff;
+.check-services-heading{
+    font-weight: 900;
+    font-size: 2em;;
     color: #006d77;
-    font-weight: 800;
-    font-size: 1.2rem;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: 0.4s;
-    width: 15rem;
-    margin-top: 50px;
+    text-align: center;
+}
+
+.container-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px; 
+}
+
+.check-services-text {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1em;
+    line-height: 20px;
+    color: #2f2f2f;
+    font-weight: 400;
+    padding-top: 10px;
+    width: 40vw;
+    margin: 0 auto;
 }

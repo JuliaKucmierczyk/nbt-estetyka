@@ -9,9 +9,9 @@ const Testimonials = () => {
                 <h1>Co mówią o nas klienci</h1>
             </div>
             <div className="testimonials">
-                <TestimonialItem name="Kay Garland" quote="This is fantastic! Thanks so much guys! I can't even imagine life without you 🌞"/>
-                <TestimonialItem name="Larry Parker" quote="I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future."/>
-                <TestimonialItem name="Diana Pertersen" quote="Thank you for the wonderful work you do. I have been using this theme regularly and I love it." />
+                <TestimonialItem name="Julia Kućmierczyk" quote="This is fantastic! Thanks so much guys! I can't even imagine life without you 🌞"/>
+                <TestimonialItem name="Katarzyna Gworzek" quote="I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future."/>
+                <TestimonialItem name="Adrian Pasiewski" quote="Thank you for the wonderful work you do. I have been using this theme regularly and I love it." />
             </div>           
         </div>
     );

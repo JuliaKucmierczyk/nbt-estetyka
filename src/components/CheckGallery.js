@@ -9,7 +9,7 @@ const CheckGallery = () => {
         <div className="check-gallery">
             <div className="gallery-heading g-section">
                 <h1>Galeria</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, beatae expedita dolore ratione voluptatem vitae architecto totam alias eius laudantium veritatis libero tempore! Sunt porro facere hic fugiat, debitis accusantium.</p>
+
             </div>
             <div className="gallery-images g-section">
                 <div className="g-image" >
