@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/nbt-estetyka/static/css/main.36555c49.css",
+    "main.js": "/nbt-estetyka/static/js/main.28dde527.js",
+    "static/media/8.jpg": "/nbt-estetyka/static/media/8.4e37436c8a416fdc199b.jpg",
+    "static/media/5.jpg": "/nbt-estetyka/static/media/5.9a384f1e3e3220dd0210.jpg",
+    "static/media/4.jpg": "/nbt-estetyka/static/media/4.1e05d80960c0f3812378.jpg",
+    "static/media/7.jpg": "/nbt-estetyka/static/media/7.9eb103a6457a2eff766a.jpg",
+    "static/media/me.jpg": "/nbt-estetyka/static/media/me.bc130f63daeacfdc7b85.jpg",
+    "static/media/cosmetologist.jpg": "/nbt-estetyka/static/media/cosmetologist.9722ef3565d5d49d8aa8.jpg",
+    "static/media/6.jpg": "/nbt-estetyka/static/media/6.39a7904b43d0446e13f8.jpg",
+    "static/media/2.jpg": "/nbt-estetyka/static/media/2.58e7bc41c161586dab28.jpg",
+    "static/media/1.jpg": "/nbt-estetyka/static/media/1.6e32a82ce0ca7406073b.jpg",
+    "static/media/3.jpg": "/nbt-estetyka/static/media/3.d4f3d1cd2bc2b555c8cf.jpg",
+    "static/media/logo-small.jpg": "/nbt-estetyka/static/media/logo-small.6d9438084d09e7a3d65c.jpg",
+    "index.html": "/nbt-estetyka/index.html",
+    "main.36555c49.css.map": "/nbt-estetyka/static/css/main.36555c49.css.map",
+    "main.28dde527.js.map": "/nbt-estetyka/static/js/main.28dde527.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36555c49.css",
+    "static/js/main.28dde527.js"
+  ]
+}
