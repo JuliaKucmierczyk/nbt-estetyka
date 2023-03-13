@@ -22,7 +22,6 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact" element={<Contact />} />
-
       </Routes>
     </div>
   );
