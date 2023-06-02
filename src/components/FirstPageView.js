@@ -1,4 +1,3 @@
-import img from "../images/cosmetologist.jpg";
 import img2 from "../images/salon-main.jpg";
 import { Link } from "react-router-dom";
 

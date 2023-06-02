@@ -787,7 +787,11 @@ figure.first-photo {
 }
 
 .first-photo img {
-  max-height: 95vh;
+  background-image: url(../images/salon\ -\ mainresized.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
 }
 
 .first-text-box {
