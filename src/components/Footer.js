@@ -1,8 +1,6 @@
 import React from "react";
 import { facebook2 } from "react-icons-kit/icomoon/facebook2";
-import { instagram } from "react-icons-kit/icomoon/instagram";
 import { phone } from "react-icons-kit/icomoon/phone";
-import { mail } from "react-icons-kit/icomoon/mail";
 import Icon from "react-icons-kit";
 import { Link } from "react-router-dom";
 import Booksy from "../images/booksy.png";
@@ -11,34 +9,22 @@ const Footer = () => {
   return (
     <footer className="footer">
       <section className="footer-icons">
-        <article className="left-footer">
-          <div>
-            <a href="https://www.booksy.com/pl-pl/">
-              <img src={Booksy} alt="Booksy" className="booksy iconka" />
-            </a>
-          </div>
-          <div>
-            <a href="https://www.facebook.com/">
-              <Icon
-                icon={facebook2}
-                size={26}
-                className="iconka"
-                style={{ marginTop: "0.3rem" }}
-              />
-            </a>
-          </div>
-          <div>
-            <a href="https://www.instagram.com/">
-              <Icon
-                icon={instagram}
-                size={26}
-                className="iconka"
-                style={{ marginTop: "0.3rem" }}
-              />
-            </a>
-          </div>
-        </article>
-        <article className="right-footer">
+        <div className="footer-icon">
+          <a href="https://www.booksy.com/pl-pl/">
+            <img src={Booksy} alt="Booksy" className="booksy iconka" />
+          </a>
+        </div>
+        <div className="footer-icon">
+          <a href="https://www.facebook.com/">
+            <Icon
+              icon={facebook2}
+              size={26}
+              className="iconka"
+              style={{ marginTop: "0.3rem" }}
+            />
+          </a>
+        </div>
+        <div className="footer-icon">
           <Link to={"/Contact"}>
             <Icon
               icon={phone}
@@ -49,9 +35,9 @@ const Footer = () => {
                 marginRight: "0.3rem",
               }}
             />
-            {/* +48 510 714 846 */}
+            +48 510 714 846
           </Link>
-        </article>
+        </div>
       </section>
     </footer>
   );

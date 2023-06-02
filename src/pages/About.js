@@ -1,12 +1,12 @@
-import me from "../images/me.jpg";
+import me from "../images/nela.jpg";
 import Footer from "../components/Footer";
 
 export default function About() {
   return (
     <div className="about-wraper">
-      <div className="photo">
+      <picture className="photo">
         <img src={me} alt="My photo" loading="lazy" />
-      </div>
+      </picture>
       <div className="about">
         <h1>Nela Tyszkiewicz</h1>
         <p>
@@ -22,9 +22,9 @@ export default function About() {
           wykonuję dany zabieg i jakie będzie miał długoterminowe skutki.
           <br></br>
           <br></br>
-          Współczesna kobieta potrzebuje przede wszystkim zaufać swojej
-          kosmetolog. Oddać się w nasze ręce wierząc, że to, co robimy ma sens i
-          że warto w to inwestować. Przy takiej ilości ofert, wiele pań czuje
+          Współczesna kobieta potrzebuje przede wszystkim zaufania do swojego
+          kosmetologa. Oddać się w nasze ręce z wiarą, że to, co robimy ma sens
+          i że warto w to inwestować. Przy takiej ilości ofert, wiele pań czuje
           się zagubionych i skaczę z zabiegu na zabieg. Albo ślepo naśladują
           twarze pokazywane w mediach społecznościowych. To nie moje myślenie.
           Ja patrzę na kobietę, słucham jej historii i stylu życia i przekonuję
@@ -39,7 +39,9 @@ export default function About() {
           tkankowych, masaży liftingujących w tym KOBIDO oraz tworzenia
           holistycznych procedur zabiegowych. Równocześnie całą wiedzą posługuję
           się w pracuję jako kosmetolog. Każda osoba odwiedzająca mój gabinet
-          może mieć pewność że należycie skorzyska z usług najwyższej jakości
+          może mieć pewność że osiągnie optymalne korzyści z zabiegów i terapii
+          tu wykonywanych. <br></br>
+          <br></br>Serdecznie zapraszam - Nela Tyszkiewicz
         </p>
       </div>
       <Footer />

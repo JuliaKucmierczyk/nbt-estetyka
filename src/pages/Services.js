@@ -26,21 +26,27 @@ const Services = () => {
     },
     {
       id: 4,
-      name: "Akupunktura kosmetyczna",
+      name: "Henna",
       description:
-        "Natutalny sposób na zatrzymanie młodości. Efekt rewitalizacji, rozjaśnienie i poprawa ukrwienia skóry/można połączyć z innymi zabiegami",
+        "Klasyczny zabieg farbowania brwi i rzęs. W zależności od upodobań klientki może być wykonany przy użyciu henny proszkowej, pudrowej, żelowej, kremowej czy popularnej obecnie farbki. Kolorystyka wacha się od granatowej czerni poprzez  popieli do różnych odcieni brązu. Cena wacha się od 30zł do 130zł w zależności od techniki.",
     },
     {
       id: 5,
-      name: "Mikropunktura",
+      name: "Pedicure leczniczy",
       description:
-        "Zabieg polegający na przezskórnym indukowanie kolagenu. Dzięki unikatowej technice pracy można wpłynąć na skórę  odmładzająco i rewitalizująco /biolifting/ oraz wspomagać redukcję  blizn o różnym pochodzenu  /Korekta blizn : pooperacyjnych, po trądzikowych, rozstępów/ ",
+        "Wykonany przy użyciu ostrzy i frezarki. Obejmuje korektę paznokci, opracowanie zrogowaceń , pękniętych pięt, usunięcie odcisków i modzeli",
+    },
+    {
+      id: 6,
+      name: "Pedicure hybrydowy i kosmetyczny",
+      description:
+        "Pedicure hybrydowy - klasyczny zabieg pielęgnacyjno-upiększający polegający na kosmetycznym usunięciu zrogowaciałego, szorstkiego naskórka, wyprofilowaniu płytki paznokciowej i pomalowaniu wybranym lakierem hybrydowym. Pedicure kosmetyczny - klasyczny zabieg pielęgnacyjny przywracający stopą miękkość i gładkość. Polega na usunięciu szorstkości na pietach i uformowaniu paznokci.",
     },
     {
       id: 7,
-      name: "Mezotewrapia mikroigłowa",
+      name: "Peelingi chemiczne",
       description:
-        "Bezpieczny zabieg niechirurgicznej rewitalizacji skóry, stymuluje naturalny proces odnowy, poprawia jędrność, koloryt i tworzenie nowych naczyń włosowatych. Zabieg można łączyć z innymi zabiegami",
+        "Niezwykle skuteczny zabieg ukierunkowany na potrzeby skóry. Dzięki właściwie dobranym i wykonanym procedurą można uzyskać : odmłodzenie i oczyszczenie twarzy, wyrównanie kolorytu, nawilżenie, ujędrnienie, redukcję drobnych zmarszczek i plam pigmentacyjnych. Najczęściej stosowanie w zabiegach peelingi to: kwas migdałowy, retinol, witamina C, TCA ",
     },
     {
       id: 8,
@@ -50,33 +56,39 @@ const Services = () => {
     },
     {
       id: 9,
-      name: 'Osocze bogatopłytkowe i fibryna "wampirzy lifting"',
+      name: "Mezotewrapia mikroigłowa",
       description:
-        "Zabieg poprawia witalność i jędrność skóry, redukuje blizny i przebarwienia. Odżywia i wzmacnia skórę. Ma też korzystny wpływ na skórę głowy. Ogranicza wypadanie włosów. Zabieg wykonywany jest w zespole z osobą uprawnioną",
+        "Bezpieczny zabieg niechirurgicznej rewitalizacji skóry, stymuluje naturalny proces odnowy, poprawia jędrność, koloryt i tworzenie nowych naczyń włosowatych. Zabieg można łączyć z innymi zabiegami",
     },
     {
       id: 10,
-      name: "Stymulatory Tkankowe",
-      description:
-        "Najnowsze zabiegi poprawiające wygląd skóry. Opóżniające proces starzenia, Preparaty pobudzają produkcję kolagenu i elastyny. Dodają skórze świeżości i promienności. Posiadają silne działanie napinające redukują przebarwienia. Dają lekki efekt wypełnienia. Działają intensywne właściwości odbudowujące. Gwarantujemy preparaty tylko sprawdzone z odpowiednimi certyfikatami .Preparat dobierany jest indywidualnie do potrzeb skóry. Wysoka precyzja wykonania. Przykładowe produkty to: Jalupro, MonoDerm Fillagen, Sisthaema, Phormae, Venome, Karisma, Ejal 40, Nucleofill, Vitaran.",
-    },
-    {
-      id: 11,
       name: "Mezoterapia hybrydowa",
       description:
         "Złożony zabieg kosmetologiczny polegający na połączeniu dwóch technik: mezoterapii igłowej i mikroigłowej. W zależności od wykorzystanych preparatów można precyzyjnie celować w potrzeby skóry.",
     },
     {
+      id: 11,
+      name: "Stymulatory Tkankowe",
+      description:
+        "Najnowsze zabiegi poprawiające wygląd skóry. Opóżniające proces starzenia, Preparaty pobudzają produkcję kolagenu i elastyny. Dodają skórze świeżości i promienności. Posiadają silne działanie napinające redukują przebarwienia. Dają lekki efekt wypełnienia. Działają intensywne właściwości odbudowujące. Gwarantujemy preparaty tylko sprawdzone z odpowiednimi certyfikatami .Preparat dobierany jest indywidualnie do potrzeb skóry. Wysoka precyzja wykonania. Przykładowe produkty to: Jalupro, MonoDerm Fillagen, Sisthaema, Phormae, Venome, Karisma, Ejal 40, Nucleofill, Vitaran. EGZOSOMY - Pionierski zabieg kosmetologii estetycznej z wykorzystaniem nanopęchechyków zewnątrz komórkowych- EGZOSOMÓW. Egzosomy modelują regenerują,odmładzają i rewitalizuja tkanki. Są biodostępne i biostabilne. Działaja przeciwzapalnie indukują syntezę kolagenu i elastyny, przyspieszają gojenie się ran.",
+    },
+    {
       id: 12,
-      name: "Masaże ",
+      name: "Masaże",
       description:
         "Zabiegi wykonywane na produktach Marki MENARD. Kobido - tradycyjny masaż dalekowschodni tkanek głębokich, powięzi mięśni i skóry. Silnie liftingujące działanie. poprawia ukrwienie, odprężą ,usprawnia przepływy naczyniowe, relaksuje, poprawia koloryt skóry. Gua Sha - Zabieg dla wymagających wykonywany kamieniami jadeitowymi/kwarcowymi/ W zależności od potrzeb energetycznych klienta. Pobudza, drenuje, dotlenia, uruchamia proces detoksykacji, rozluźnia, Kamienie jednorazowe",
     },
     {
       id: 13,
-      name: "Pedicure leczniczy",
+      name: "Mikropunktura",
       description:
-        "Wykonany przy użyciu ostrzy i frezarki. Obejmuje korektę paznokci, opracowanie zrogowaceń , pękniętych pięt, usunięcie odcisków i modzeli",
+        "Zabieg polegający na przezskórnym indukowanie kolagenu. Dzięki unikatowej technice pracy można wpłynąć na skórę  odmładzająco i rewitalizująco /biolifting/ oraz wspomagać redukcję  blizn o różnym pochodzenu  /Korekta blizn : pooperacyjnych, po trądzikowych, rozstępów/ ",
+    },
+    {
+      id: 14,
+      name: "Akupunktura kosmetyczna",
+      description:
+        "Natutalny sposób na zatrzymanie młodości. Efekt rewitalizacji, rozjaśnienie i poprawa ukrwienia skóry/można połączyć z innymi zabiegami",
     },
   ]);
 
@@ -100,7 +112,7 @@ const Services = () => {
             onClick={() => toggleService(service.id)}
           >
             <div className="up">
-              <h2 className="toggle-list-title">
+              <h2 className="toggle-list-title animacja">
                 {selectedService === service.id ? (
                   <Icon size={25} icon={smallDown}></Icon>
                 ) : (

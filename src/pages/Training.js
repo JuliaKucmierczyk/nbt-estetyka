@@ -1,4 +1,5 @@
 import Footer from "../components/Footer";
+import img from "../images/salon-resized.jpg";
 
 export default function Training() {
   return (
@@ -7,19 +8,21 @@ export default function Training() {
         <div className="content-container boxx">
           <h1>Szkolenia</h1>
           <p className="contact-text">
-            W moim forum szkoleniowym ogromną uwagę przywiązujemy do techniki
-            wykonywania zabiegów. Szczegółowo tłumaczę mechanizm działania po
-            to, by kosmetolożki potem nie tylko wiedziały jak, ale kiedy i
-            której klientce proponować określony zabieg. Szkolenia organizowane
-            są indywidualnie lub w dwuosobowych grupach. Obejmują część
-            teoretyczną i praktyczną.
+            Chcesz zdobyć lub poszerzyć swoją wiedzę i umiejętności z zakresu
+            nowoczesnej kosmetologii, podologii i masażu? Zapraszam do udziału w
+            szkoleniach, kursach i seminariach organizowanych przez moje Forum
+            Szkoleniowe. Spotkania prowadzone są pod okiem doświadczonych
+            specjalistów w swojej dziedzinie. Uzyskasz na nich wyczerpującą
+            wiedzę teoretyczną niezbędną do bezpiecznego wykonania zabiegu oraz
+            wyćwiczysz nowo nabyte umiejętności. Zajęcia organizowane są w
+            sprzyjającej rozwojowi atmosferze. Po zakończeniu uzyskasz
+            Certyfikat poświadczający nabyte umiejętności.
           </p>
         </div>
         <div className="image-container boxx">
-          <img
-            src="https://images.unsplash.com/photo-1531538512164-e6c51ea63d20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
-            alt="szkolenie"
-          />
+          <picture>
+            <img src={img} alt="szkolenie" />
+          </picture>
         </div>
       </article>
       <article className="training-contener">

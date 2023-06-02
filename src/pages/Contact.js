@@ -18,13 +18,11 @@ export default function Contact() {
             <p> +48 510 714 846</p>
           </div>
           <div className="link-item">
-            <a href="https://www.facebook.com/" target={"_blank"}>
+            <a
+              href="https://www.facebook.com/Estetyka.Nela.Tyszkiewicz/?locale=pl_PL"
+              target={"_blank"}
+            >
               Facebook
-            </a>
-          </div>
-          <div className="link-item">
-            <a href="https://www.instagram.com/" target={"_blank"}>
-              Instagram
             </a>
           </div>
           <div className="link-item">
