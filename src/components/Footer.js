@@ -10,12 +10,12 @@ const Footer = () => {
     <footer className="footer">
       <section className="footer-icons">
         <div className="footer-icon">
-          <a href="https://www.booksy.com/pl-pl/">
+          <a href="https://booksy.com/pl-pl/17203_nbt-estetyka_salon-kosmetyczny_8820_krakow">
             <img src={Booksy} alt="Booksy" className="booksy iconka" />
           </a>
         </div>
         <div className="footer-icon">
-          <a href="https://www.facebook.com/">
+          <a href="https://www.facebook.com/Estetyka.Nela.Tyszkiewicz">
             <Icon
               icon={facebook2}
               size={26}
