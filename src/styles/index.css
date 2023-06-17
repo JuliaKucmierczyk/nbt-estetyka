@@ -170,6 +170,15 @@ nav {
   align-items: center;
 }
 
+.wrap-pricing p {
+  text-align: center;
+  margin-bottom: 100px;
+  color: #3f3f3f;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.wrap-pricing .main-title,
 .wrap-pricing h1 {
   text-align: center;
   font-size: 2em;
@@ -186,7 +195,9 @@ nav {
   margin-top: 70px;
   color: #252525;
 }
-
+.wrap-pricing h1 {
+  margin-bottom: 0px;
+}
 .row {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -270,6 +281,12 @@ nav {
 
 .contact-container .link-item {
   padding: 0.4rem;
+}
+
+.link-item span {
+  font-size: large;
+  color: #00656e;
+  font-weight: 600;
 }
 
 .first-row,
@@ -638,7 +655,6 @@ nav {
 @media (max-width: 768px) {
   .component {
     flex-direction: column;
-    height: 6rem;
   }
 
   .image-container {
@@ -787,11 +803,14 @@ figure.first-photo {
 }
 
 .first-photo img {
-  background-image: url(../images/salon\ -\ mainresized.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100%;
+}
+
+.first-photo {
+  position: relative;
   height: 95vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .first-text-box {
@@ -841,6 +860,14 @@ figure.first-photo {
 .first-page-view-content {
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 1024px) {
+  .first-page-view {
+    height: auto;
+  }
+  .first-photo img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {

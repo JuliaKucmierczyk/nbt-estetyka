@@ -15,7 +15,9 @@ export default function Contact() {
             <Icon icon={phone} size={25} className="iconka" /> KONTAKT
           </h1>
           <div className="link-item">
-            <p> +48 510 714 846</p>
+            <p>
+              <span>+48 510 714 846 </span> - Najszybsza odpowiedź!
+            </p>
           </div>
           <div className="link-item">
             <a

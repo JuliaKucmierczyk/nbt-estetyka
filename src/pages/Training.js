@@ -1,5 +1,8 @@
 import Footer from "../components/Footer";
-import img from "../images/salon-resized.jpg";
+import salonjpg from "../images/salon-szkolenia/salon.jpg";
+import salonwebp from "../images/salon-szkolenia/salon.webp";
+import salon1000 from "../images/salon-szkolenia/salon.jpg";
+import salon1000webp from "../images/salon-szkolenia/salon.webp";
 
 export default function Training() {
   return (
@@ -21,7 +24,27 @@ export default function Training() {
         </div>
         <div className="image-container boxx">
           <picture>
-            <img src={img} alt="szkolenie" />
+            <source
+              media="(max-width: 1000px)"
+              type="image/jpg"
+              srcset={salon1000}
+            />
+            <source
+              media="(min-width: 1001px)"
+              type="image/jpg"
+              srcset={salonjpg}
+            />
+            <source
+              media="(max-width: 1000px)"
+              type="image/webp"
+              srcset={salon1000webp}
+            />
+            <source
+              media="(min-width: 1001px)"
+              type="image/webp"
+              srcset={salonwebp}
+            />
+            <img src={salonjpg} alt="szkolenie" />
           </picture>
         </div>
       </article>

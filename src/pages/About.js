@@ -1,10 +1,17 @@
-import me from "../images/nela.jpg";
+import me from "../images/nela/nela.jpg";
+import me1000 from "../images/nela/nela-1000.jpg";
+import me1000webp from "../images/nela/nela-1000.webp";
+import mewebp from "../images/nela/nela.webp";
 import Footer from "../components/Footer";
 
 export default function About() {
   return (
     <div className="about-wraper">
       <picture className="photo">
+        <source media="(max-width: 1000px)" srcset={me1000} />
+        <source media="(max-width: 1000px)" srcset={me1000webp} />
+        <source media="(min-width: 1001px)" type="image/jpg" srcset={me} />
+        <source media="(min-width: 1001px)" type="image/webp" srcset={mewebp} />
         <img src={me} alt="My photo" loading="lazy" />
       </picture>
       <div className="about">
