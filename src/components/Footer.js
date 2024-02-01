@@ -3,29 +3,31 @@ import { facebook2 } from "react-icons-kit/icomoon/facebook2";
 import { phone } from "react-icons-kit/icomoon/phone";
 import Icon from "react-icons-kit";
 import { Link } from "react-router-dom";
-import Booksy from "../images/booksy.png";
+import { fileText2 } from "react-icons-kit/icomoon/fileText2";
+import file from "../documents/regulaminzałącznik.docx";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <section className="footer-icons">
         <div className="footer-icon">
-          <a href="https://booksy.com/pl-pl/17203_nbt-estetyka_salon-kosmetyczny_8820_krakow">
-            <img src={Booksy} alt="Booksy" className="booksy iconka" />
-          </a>
-        </div>
-        <div className="footer-icon">
-          <a href="https://www.facebook.com/Estetyka.Nela.Tyszkiewicz">
+          <Link
+            to={file}
+            download="Regulamin nbt-estetyka"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Icon
-              icon={facebook2}
+              icon={fileText2}
               size={26}
               className="iconka"
               style={{ marginTop: "0.3rem" }}
             />
-          </a>
+            Regulamin
+          </Link>
         </div>
         <div className="footer-icon">
-          <Link to={"/Contact"}>
+          <a href="tel:+48510714846">
             <Icon
               icon={phone}
               size={25}
@@ -36,7 +38,21 @@ const Footer = () => {
               }}
             />
             +48 510 714 846
-          </Link>
+          </a>
+        </div>{" "}
+        <div className="footer-icon">
+          <a
+            href="https://www.facebook.com/Estetyka.Nela.Tyszkiewicz"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <Icon
+              icon={facebook2}
+              size={26}
+              className="iconka"
+              style={{ marginTop: "0.3rem" }}
+            />
+          </a>
         </div>
       </section>
     </footer>

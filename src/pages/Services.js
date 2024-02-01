@@ -5,7 +5,7 @@ import { Icon } from "react-icons-kit";
 import Footer from "../components/Footer.js";
 
 const Services = () => {
-  const [servicesList, setServicesList] = useState([
+  const [servicesList] = useState([
     {
       id: 1,
       name: "Zabieg nawilżający",

@@ -438,11 +438,14 @@ nav {
   margin-top: 0.5rem;
 }
 
+.footer-icon {
+  margin-right: 2.5rem;
+}
+
 .iconka {
   color: #006d77;
   font-size: 1.5rem;
   margin-top: 1rem;
-  margin-right: 1.3rem;
 }
 
 .booksy {

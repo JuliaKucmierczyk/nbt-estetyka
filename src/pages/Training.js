@@ -44,7 +44,7 @@ export default function Training() {
               type="image/webp"
               srcset={salonwebp}
             />
-            <img src={salonjpg} alt="szkolenie" />
+            <img alt="szkolenie" />
           </picture>
         </div>
       </article>

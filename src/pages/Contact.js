@@ -4,8 +4,6 @@ import { office } from "react-icons-kit/icomoon/office";
 import { clock } from "react-icons-kit/icomoon/clock";
 import Maps from "../components/Maps";
 
-const color = "#f5f5f5";
-
 export default function Contact() {
   return (
     <section className="contact-container">
@@ -23,16 +21,9 @@ export default function Contact() {
             <a
               href="https://www.facebook.com/Estetyka.Nela.Tyszkiewicz/?locale=pl_PL"
               target={"_blank"}
+              rel="noreferrer noopener"
             >
               Facebook
-            </a>
-          </div>
-          <div className="link-item">
-            <a
-              href="https://booksy.com/pl-pl/17203_nela-tyszkiewicz-kosmetyka-zapobiegawcza_salon-kosmetyczny_8820_krakow"
-              target={"_blank"}
-            >
-              Booksy
             </a>
           </div>
         </div>

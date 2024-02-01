@@ -27,10 +27,7 @@ const FirstPageView = () => {
             type="image/webp"
             srcset={salonwebp}
           />
-          <img
-            src={salon}
-            alt="Zdjęcie przedstawiające salon Neli Tyszkiewicz"
-          />
+          <img alt="Zdjęcie przedstawiające salon Neli Tyszkiewicz" />
         </picture>
         <article className="first-text-box">
           <h1>Najlepszy salon kosmetologii w Krakowie</h1>
