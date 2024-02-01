@@ -52,6 +52,7 @@ const Footer = () => {
               className="iconka"
               style={{ marginTop: "0.3rem" }}
             />
+            Facebook
           </a>
         </div>
       </section>

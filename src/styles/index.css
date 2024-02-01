@@ -417,7 +417,6 @@ nav {
 /* FOOTER */
 
 .footer {
-  height: 10vh;
   width: 100%;
   background-color: #ffffff;
   border-top: 1px solid rgba(45, 45, 45, 0.3);
@@ -435,17 +434,22 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 0.5rem;
+  margin: 1.2rem;
 }
 
 .footer-icon {
   margin-right: 2.5rem;
 }
 
-.iconka {
-  color: #006d77;
-  font-size: 1.5rem;
-  margin-top: 1rem;
+@media (max-width: 768px) {
+  .footer-icons {
+    flex-direction: column;
+  }
+
+  .footer-icon {
+    margin-right: 0;
+    padding-bottom: 0.8rem;
+  }
 }
 
 .booksy {
