@@ -4,10 +4,12 @@ import FirstPageView from "../components/FirstPageView";
 import CheckServices from "../components/CheckServices";
 import CheckMe from "../components/CheckMe";
 import Footer from "../components/Footer";
+import CookieConsent from "../components/CookieConsent";
 
 export default function Home() {
   return (
     <div className="content">
+      <CookieConsent />
       <FirstPageView />
       <CheckServices />
       {/* <CheckGallery /> */}

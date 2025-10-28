@@ -1072,7 +1072,7 @@ figure.first-photo {
   border-top: 1px solid #ddd;
   box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
   font-family: sans-serif;
-  z-index: 9999;
+  z-index: 10000000;
 }
 
 .cookie-container {

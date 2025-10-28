@@ -24,7 +24,7 @@ const Navbar = () => {
               O mnie
             </Link>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <Link to="/uslugi" className="nav-link" onClick={closeMenu}>
               Usługi
             </Link>
@@ -39,12 +39,12 @@ const Navbar = () => {
               Galeria
             </Link>
           </li> */}
-          <li class="nav-item">
+          <li className="nav-item">
             <Link to="/cennik" className="nav-link" onClick={closeMenu}>
               Cennik
             </Link>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <Link
               to="/kontakt"
               className="contact-link nav-link"
