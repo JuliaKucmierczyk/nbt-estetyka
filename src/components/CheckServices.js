@@ -39,7 +39,7 @@ const CheckServices = () => {
             usługi, które spełnią Twoje potrzeby!
           </p>
         </div>
-        <Link to="/services" className="check-services-btn">
+        <Link to="/uslugi" className="check-services-btn">
           Zobacz więcej
         </Link>
       </article>

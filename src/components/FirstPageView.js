@@ -37,7 +37,7 @@ const FirstPageView = () => {
             i z wielką przyjemnością pomagam ludziom poprawić swój wygląd i
             samopoczucie.
           </p>
-          <Link to="/contact" className="contact-button">
+          <Link to="/kontakt" className="contact-button">
             Umów wizytę
           </Link>
         </article>

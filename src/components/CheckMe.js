@@ -38,7 +38,7 @@ const CheckMe = () => {
               iniekcyjnych, mezoterapii, stymulatorach, face modellingu oraz
               podologii.
             </p>
-            <Link to="/about" className="check-services-btn">
+            <Link to="/omnie" className="check-services-btn">
               Zobacz więcej
             </Link>
           </article>

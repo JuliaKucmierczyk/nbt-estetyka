@@ -20,17 +20,17 @@ const Navbar = () => {
         </div>
         <ul className={!isOpen ? "nav-menu" : "nav-menu-toggled"}>
           <li className="nav-item">
-            <Link to="/about" className="nav-link" onClick={closeMenu}>
+            <Link to="/omnie" className="nav-link" onClick={closeMenu}>
               O mnie
             </Link>
           </li>
           <li class="nav-item">
-            <Link to="/services" className="nav-link" onClick={closeMenu}>
+            <Link to="/uslugi" className="nav-link" onClick={closeMenu}>
               Usługi
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/training" className="nav-link" onClick={closeMenu}>
+            <Link to="/treningi" className="nav-link" onClick={closeMenu}>
               Szkolenia
             </Link>
           </li>
@@ -40,13 +40,13 @@ const Navbar = () => {
             </Link>
           </li> */}
           <li class="nav-item">
-            <Link to="/pricing" className="nav-link" onClick={closeMenu}>
+            <Link to="/cennik" className="nav-link" onClick={closeMenu}>
               Cennik
             </Link>
           </li>
           <li class="nav-item">
             <Link
-              to="/contact"
+              to="/kontakt"
               className="contact-link nav-link"
               onClick={closeMenu}
             >
