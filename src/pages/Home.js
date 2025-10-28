@@ -9,7 +9,6 @@ import CookieConsent from "../components/CookieConsent";
 export default function Home() {
   return (
     <div className="content">
-      <CookieConsent />
       <FirstPageView />
       <CheckServices />
       {/* <CheckGallery /> */}
